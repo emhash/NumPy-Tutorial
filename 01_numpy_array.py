@@ -36,7 +36,15 @@ arr1 = np.array(
 # print(arr1[0, 1:4])
 
 # --------- METHODS ------
+print("SHAPE of 1D array -> ",np.shape(arr))
 print("SHAPE -> ",np.shape(arr1))
+print("SIZE of 1D array-> ",np.size(arr))
 print("SIZE -> ",np.size(arr1))
 print("Dimantion -> ",np.ndim(arr1))
 print("Type -> ",arr1.dtype)
+
+# more ex - len(), astype()
+print("Elements in 2D array --> ", np.size(arr1)) 
+# We can remember as each array in multi 2D array has same elements 
+# so first array's elements are same as other all index's array. 
+# ex - [1 2 3] = 3 elem. [4 5 6] = also 3 elem.
