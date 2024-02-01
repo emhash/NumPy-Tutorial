@@ -43,7 +43,7 @@ print("SIZE -> ",np.size(arr1))
 print("Dimantion -> ",np.ndim(arr1))
 print("Type -> ",arr1.dtype)
 
-# more ex - len(), astype()
+# more ex - len(), astype() -- astype('int' or 'float' or 'str' ]
 print("Elements in 2D array --> ", np.size(arr1)) 
 # We can remember as each array in multi 2D array has same elements 
 # so first array's elements are same as other all index's array. 
